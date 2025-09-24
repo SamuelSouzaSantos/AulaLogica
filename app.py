@@ -7,3 +7,5 @@ else:
     print("Animal Idoso")
 
 print("Programa finalizado")
+
+print("Paulo é o menino bom")
