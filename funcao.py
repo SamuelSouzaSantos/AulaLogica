@@ -46,8 +46,22 @@ if __name__ =="__main__":
 def retorna_soma(valor1,valor2):
     soma = valor1 + valor2
     return soma
+
+def retorna_sub(valor1,valor2):
+    sub = valor1 - valor2
+    return sub
+
 if __name__ =="__main__": 
     x1 = int(input("Digite o numero: "))
     x2 = int(input("Digite o numero: "))
-
     print("A soma dos dois valores é igual à:", retorna_soma(x1,x2))
+    print("A subtração dos dois valores é igual à:", retorna_sub(x1,x2))
+
+if __name__ =="__main__": 
+    v1 = int(input("Primeiro valor:"))
+    v2 = int(input("Segundo valor:"))
+    opcao = int(input("[1] SOMAR\n[2] SUBTRAÇÃO\nOpção: "))
+    if opcao== 1:
+        print("\nSoma =", retorna_soma(v1,v2))
+    else:
+        print("\nSubtracao =", retorna_sub(v1,v2))
