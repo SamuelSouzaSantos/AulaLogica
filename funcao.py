@@ -65,3 +65,4 @@ if __name__ =="__main__":
         print("\nSoma =", retorna_soma(v1,v2))
     else:
         print("\nSubtracao =", retorna_sub(v1,v2))
+print("FINALIZADO")
